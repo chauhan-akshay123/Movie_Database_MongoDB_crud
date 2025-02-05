@@ -26,13 +26,19 @@ A simple movie database API built using Node.js, Express.js, and MongoDB that su
 - **URL**: `/movies`
 - **Request Body**:
   ```json
-  {
-    "title": "Movie Title",
-    "director": "Director Name",
-    "rating": "Rating (e.g. 8.5)",
-    "year": "Release Year",
-    "genre": "Genre"
-  }
+ ```
+  "title": "New Movie",
+  "releaseYear": 2025,
+  "genre": ["Drama"],
+  "director": "Mia Khalifa",
+  "actors": ["Lana Rhodes", "Johny Sins"],
+  "language": "English",
+  "country": "USA",
+  "rating": 8.6,
+  "plot": "It's a new adventure movie",
+  "awards": "Oscar Nomination",
+  "posterUrl": "https://example.com/poster-newMovie.jpg",
+  "trailerUrl": "https://example.com/trailer-newMovie.mp4"
 
 ### 2. Get All movies
 - **MEthod**: `GET`
