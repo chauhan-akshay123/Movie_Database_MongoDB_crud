@@ -25,7 +25,7 @@ A simple movie database API built using Node.js, Express.js, and MongoDB that su
 - **Method**: `POST`
 - **URL**: `/movies`
 - **Request Body**:
-  ``
+   ```
   "title": "New Movie",
   "releaseYear": 2025,
   "genre": ["Drama"],
@@ -38,7 +38,7 @@ A simple movie database API built using Node.js, Express.js, and MongoDB that su
   "awards": "Oscar Nomination",
   "posterUrl": "https://example.com/poster-newMovie.jpg",
   "trailerUrl": "https://example.com/trailer-newMovie.mp4"
- ``
+```
 
 ### 2. Get All movies
 - **MEthod**: `GET`
